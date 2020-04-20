@@ -850,6 +850,41 @@ Pulsa 'Siguiente' para continuar",
             ["gogQuestion{es}"] =
 @"El instalador a autodetectado una version GOG de UNDERTALE, quieres usarla o usar una carpeta alternativa?",
 #endregion
-        }; // End of localizationDictionary.
+        }; // End of localizationDictionary? not yet!
+			localizationDictionary["{zh-CN}"] = "{zh}";
+			localizationDictionary["{zh-SG}"] = "{zh}";
+			localizationDictionary["mainForm.Text{zh}"] = "Undertale Together 的小小 C# 补丁机";
+			localizationDictionary["titleLabel.Text{zh}"] = "Undertale Together\n作者：Depa";
+			localizationDictionary["quitButton.Text{zh}"] = "退出";
+			localizationDictionary["prevButton.Text{zh}"] = "< 上一页";
+			localizationDictionary["nextButton.Text{zh}"] = "下一页 >";
+			localizationDictionary["thankyouLabel.Text{zh}"] = "补丁成功！现在请打开你的游戏。\n\n$REPLACETEXT$\n\nMod作者：小狗Depa\nSpaghettiInstaller 作者：小猫Nik\nzh-CN/zh-SG翻译：Dobby233Liu\n再见！";
+			localizationDictionary["instructionLabel.Text{zh}"] = "你好！\n\n该安装程序将帮助您补丁已存的\nUNDERTALE 副本以包含 Undertale Together 这个 mod。\n\n您需要：\n1) 合法的 UNDERTALE v1.08 副本（盗版臭死了，\n请在24小时内自裁，请）\n1.1) 版本号低于 v1.08 的副本\n（或 GOG 上的 2.0.0.2）行不通！\n2) 一点耐心。\n3) 两只狗。";
+			localizationDictionary["instructionLabel.Text2{zh}"] = localizationDictionary["instructionLabel.Text{zh}"] + "（非必须？）";
+			localizationDictionary["errorTitle{zh}"] = "啊哦。";
+			localizationDictionary["questionTitle{zh}"] = "请施教。";
+			localizationDictionary["folderBrowserDialog{zh}"] = "请选择副本文件夹：";
+			localizationDictionary["steamQuestion{zh}"] = "安装程序检测到一份 UNDERTALE 的 Steam 副本，是否使用？";
+			localizationDictionary["gogQuestion{zh}"] = "安装程序检测到一份 UNDERTALE 的 GOG 副本，试问是要使用还是自己选一个目录？";
+			localizationDictionary["backupErrorQuestion{zh}"] = "备份失败。\n您仍可以继续，但到时问题可能就大了。\n您仍要继续吗？";
+			localizationDictionary["steamCannotFindFolder{zh}"] = "额...";
+			localizationDictionary["quitQuestionTitle{zh}"] = "真可惜 :(";
+			localizationDictionary["quitQuestion{zh}"] = "您确定要退出吗？";
+			localizationDictionary["runasAdmin{zh}"] = "无法在游戏目录里进行写操作。\n请以管理员身份重新运行该安装程序。";
+			localizationDictionary["xdeltaError{zh}"] = "无法在临时文件夹里写 xdelta3.exe。\n安装程序无法继续。\n记得我提起过杀毒软件吗？";
+			localizationDictionary["dataNotFoundError{zh}"] = "您所选的目录内没有数据文件。\n请选择另一个目录。";
+			localizationDictionary["gogPatch{zh}"] = "安装程序检测到您的 UNDERTALE 副本为 GOG 版本。\n它将会先被转换为 Steam 版本。\n请按确定键继续。";
+			localizationDictionary["veryBadError{zh}"] = "安装程序捕获到一个异常。\n文件可能不可读或与预期值不同。\n尝试将游戏目录移动到别处。\n\n\n异常：";
+			localizationDictionary["cannotFindModPatch{zh}"] = "无法找到补丁文件。\n请将所有文件解压。\n不要只解压此安装程序。";
+			localizationDictionary["patchingFailed{zh}"] = "打补丁失败。\n记得我提起过杀毒软件吗？";
+			localizationDictionary["cannotFindGOGSteam{zh}"] = "找不到 GOG 转 Steam 补丁，请确保您有正确地解压所有文件！";
+			localizationDictionary["cannotCopyOptionalFiles{zh}"] = "无法拷贝附加文件。\n对应的文件夹极有可能不存在。\n您可以忽略此错误。";
+			localizationDictionary["optionalFilesQuestion{zh}"] = "您想要安装附加文件吗？";
+			localizationDictionary["wrongGameVersion{zh}"] = "你的数据文件跟我所预期的不一样...\n可能原因：\n1) 游戏版本不同，其必须为1.08\n2) 安装了其他的 mod，请重装游戏\n3) Undertale Together 早已被安装了。";
+			localizationDictionary["revertModSteam{zh}"] = "如果想要撤消补丁，\n请在 UNDERTALE 的属性内按”验证游戏文件完整性“，\n并在 UT 目录内删除 data.win.bau";
+			localizationDictionary["revertModGOG{zh}"] = "如果想要撤消补丁，\n请进入游戏目录，删除 data.win，\n并重命名 data.win.bau 为 data.win";
+			localizationDictionary["cannotDetectSteamPath{zh}"] = "安装程序检测到一份 UNDERTALE 的 Steam 副本，但无法找到其位置...\n也许你选择了另一个安装路径？\n按确定以选择游戏目录。\n\n(let's hope you're not a pirate...)\n(it's not an error message and can happen to everyone)";
+			localizationDictionary["bauPiracyMsg{zh}"] = "我们为神烦狗吃掉补丁文件而深感歉意。\n尝试从 https://bit.ly/33LVPOT 重新下载补丁\n（链接已复制）";
+			localizationDictionary["instructionLabel.Text3{zh}"] = "下一步，您将要选择您的游戏目录。\n\n请保证没有东西会阻止安装程序重写游戏文件。\n（比如杀毒软件？）\n\n按”下一页“继续";
     }
 }
